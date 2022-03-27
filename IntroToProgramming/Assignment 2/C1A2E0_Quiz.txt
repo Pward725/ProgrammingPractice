@@ -1,0 +1,14 @@
+Phillip Ward U09339367
+Phillip.Ward@seagate.com
+C/C++ Programming I
+162461 Ray Mitchell
+01/23/2022
+C1A2E0_Quiz.txt
+Quiz Answers
+
+1. A
+2. D
+3. E
+4. B
+5. A
+6. C
