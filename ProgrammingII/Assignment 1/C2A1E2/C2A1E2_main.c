@@ -8,8 +8,8 @@
 // Win10
 // g++ 11.2.0
 // 
-// A program that prints the number of command line arguments followe by the 
-// arguments themselvesg
+// A program that prints the number of command line arguments followed by the 
+// arguments themselves
 //
 
 #include <stdio.h>
