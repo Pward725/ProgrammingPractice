@@ -8,7 +8,8 @@
 // Win10
 // g++ 11.2.0
 // 
-// A 
+// A program that prints the number of command line arguments followe by the 
+// arguments themselves
 //
 
 #include <stdio.h>
