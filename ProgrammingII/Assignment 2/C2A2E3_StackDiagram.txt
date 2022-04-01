@@ -1,0 +1,47 @@
+Instructions:
+1. Carefully read the C2A2E3 requirements documentation.
+2. Delete everything except your title block and your stack diagram before
+   submitting this file to the assignment checker.
+
+Ray Mitchell, Uxxxxxxxx
+MeanOldTeacher@MeanOldTeacher.com
+C/C++ Programming II
+Section xxxxxx, Ray Mitchell
+January 1, 2022
+C2A2E3_StackDiagram.txt
+Recursive Stack Diagram
+
+Rel      Abs   Stack           Description         Item
+Adr      Adr   Value                               Size
+------------------------ startup -------------------------
+
+----------------------------------------------------------
+
+                
+                   Sample Stack Diagram
+Rel      Abs   Stack           Description         Item
+Adr      Adr   Value                               Size
+------------------------ startup -------------------------
+BP+7h    93Ch  20AFh   Function Return Address   (7 bytes)
+BP       935h     0h   Previous Frame Address    (7 bytes)
+-------------------------- main --------------------------
+BP+Bh    931h     ??   Return Object             (4 bytes)
+BP+7h    92Ah     ??   Function Return Address   (7 bytes)
+BP       923h   935h   Previous Frame Address    (7 bytes)
+BP-4h    91Fh     ??   x                         (4 bytes)
+-------------------------- Ready -------------------------
+BP+7h    918h   505h   Function Return Address   (7 bytes)
+BP       911h   923h   Previous Frame Address    (7 bytes)
+------------------------- Recur 1 ------------------------
+BP+Bh    90Dh    24    value                     (4 bytes)
+BP+7h    906h   104h   Function Return Address   (7 bytes)
+BP       8FFh   911h   Previous Frame Address    (7 bytes)
+------------------------- Recur 2 ------------------------
+BP+Bh    8FBh    12    y                         (4 bytes)
+BP+7h    8F4h   218h   Function Return Address   (7 bytes)
+BP       8EDh   8FFh   Previous Frame Address    (7 bytes)
+------------------------- Recur 3 ------------------------
+BP+Bh    8E9h     0    y                         (4 bytes)
+BP+7h    8E2h   218h   Function Return Address   (7 bytes)
+BP & SP  8DBh   8EDh   Previous Frame Address    (7 bytes)
+-----------------------------------------------------------
