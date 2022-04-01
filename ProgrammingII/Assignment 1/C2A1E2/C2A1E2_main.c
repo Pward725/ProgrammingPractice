@@ -9,7 +9,7 @@
 // g++ 11.2.0
 // 
 // A program that prints the number of command line arguments followe by the 
-// arguments themselves
+// arguments themselvesg
 //
 
 #include <stdio.h>
