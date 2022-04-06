@@ -8,10 +8,11 @@
 // Win10
 // g++ 11.2.0
 // 
-// 
+// A file that contains the macro definition to return the number of bits in a
+// passed object or type
 //
 #include <limits.h>
-#ifndef C2A12E1_COUNTBITSM_H
-#define C2A12E1_COUNTBITSM_H
-#define CountBitsM(objectOrType) (sizeof(objectOrType)*(CHAR_BIT))
+#ifndef C2A2E1_COUNTBITSM_H
+#define C2A2E1_COUNTBITSM_H
+#define CountBitsM(objectOrType) ((int)sizeof(objectOrType)*CHAR_BIT)
 #endif
