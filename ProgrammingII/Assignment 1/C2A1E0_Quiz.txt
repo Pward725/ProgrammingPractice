@@ -1,0 +1,18 @@
+// 
+// Phillip Ward U09339367
+// Phillip.Ward@seagate.com
+// C/C++ Programming I
+// 164440 Ray Mitchell
+// 04/05/2022
+// C2A1E0_Quiz.txt
+
+1. B
+2. B
+3. B
+4. B
+5. B
+6. B
+7. B
+8. B
+9. B
+10. B
